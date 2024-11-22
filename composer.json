@@ -1,0 +1,21 @@
+{
+    "name": "baotran/blade-component",
+    "description": "Blade Component for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "BaoTran\\BladeComponent\\": "src/" 
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BaoTran\\BladeComponent\\BladeComponentServiceProvider" 
+            ]
+        }
+    }
+}
